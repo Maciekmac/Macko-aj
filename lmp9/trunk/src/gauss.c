@@ -5,7 +5,7 @@
  * Zwraca 1 - macierz osobliwa - dzielenie przez 0
  */
 int eliminate(Matrix *mat, Matrix *b){
-    if(mat-> != mat->c || mat->r != b->r){
+    if(mat->r != mat->c || mat->r != b->r){
             return 1;}
     int n = mat->r;
     int i, j, k;
