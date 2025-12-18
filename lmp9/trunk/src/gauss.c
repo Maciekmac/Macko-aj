@@ -31,4 +31,4 @@ int eliminate(Matrix *mat, Matrix *b){
             return 1;}
                 return 0;
 }
-//Wersja Mikolaj: koniec pliku
+//Koniec funckji eliminacji gaussa
