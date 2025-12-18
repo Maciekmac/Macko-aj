@@ -31,3 +31,4 @@ int eliminate(Matrix *mat, Matrix *b){
             return 1;}
                 return 0;
 }
+//Wersja Maciek: koniec
