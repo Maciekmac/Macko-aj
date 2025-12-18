@@ -29,6 +29,5 @@ int eliminate(Matrix *mat, Matrix *b){
                     b->data[i][0] -=factor*b->data[k][0];}}
     if(fabs(mat->data[n-1][n-1])<1e-12){
             return 1;}
-
                 return 0;
 }
